@@ -21,5 +21,5 @@ The EMNIST Balanced dataset contains handwritten digits and characters. It is de
 - **Input Format**: 28x28 grayscale images.
 
 # Download and load the dataset
-train_set = datasets.EMNIST(root='./data', split='balanced', train=True, download=True, transform=transform)
-test_set = datasets.EMNIST(root='./data', split='balanced', train=False, download=True, transform=transform)
+- train_set = datasets.EMNIST(root='./data', split='balanced', train=True, download=True, transform=transform)
+- test_set = datasets.EMNIST(root='./data', split='balanced', train=False, download=True, transform=transform)
